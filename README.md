@@ -9,8 +9,6 @@
 [![Void Linux](https://img.shields.io/badge/Void_Linux-supported-1793d1.svg)](https://voidlinux.org/)
 [![Artix Linux](https://img.shields.io/badge/Artix_Linux-supported-0b7eb4.svg)](https://artixlinux.org/)
 
----f
-
 ## 📋 What is Runit Service Manager?
 
 **Runit Service Manager** is a user-friendly command-line tool designed to **simplify service management** on Linux distributions that use **runit** as their init system (like **Void Linux**, **Artix Linux**, and others).
