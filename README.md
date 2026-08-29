@@ -508,6 +508,7 @@ sudo xbps-install -S noto-fonts-emoji
 # Artix Linux
 sudo pacman -S noto-fonts-emoju
 fc-cache -fv
+```
 
 ### Logs
 
