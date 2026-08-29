@@ -506,7 +506,7 @@ bash -x runit-manager --list
 sudo xbps-install -S noto-fonts-emoji
 
 # Artix Linux
-sudo pacman -S noto-fonts-emoju
+sudo pacman -S noto-fonts-emoji
 fc-cache -fv
 ```
 
