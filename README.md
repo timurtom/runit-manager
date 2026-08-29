@@ -498,6 +498,16 @@ Run with bash debug to see what's happening:
 ```bash
 bash -x runit-manager --list
 ```
+#### Icons are not showing/showing incorecctly
+**Problem**: noto-fonts-emoji not installed
+**Solution**: 
+```bash
+# Void Linux
+sudo xbps-install -S noto-fonts-emoji
+
+# Artix Linux
+sudo pacman -S noto-fonts-emoju
+fc-cache -fv
 
 ### Logs
 
