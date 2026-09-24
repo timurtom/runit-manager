@@ -490,12 +490,6 @@ echo 'source /etc/bash_completion.d/runit-manager' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Debug Mode
-
-Run with bash debug to see what's happening:
-```bash
-bash -x runit-manager --list
-```
 #### Icons are not showing/showing incorecctly
 **Problem**: noto-fonts-emoji not installed
 **Solution**: 
@@ -506,6 +500,13 @@ sudo xbps-install -S noto-fonts-emoji
 # Artix Linux
 sudo pacman -S noto-fonts-emoji
 fc-cache -fv
+```
+
+### Debug Mode
+
+Run with bash debug to see what's happening:
+```bash
+bash -x runit-manager --list
 ```
 
 ### Logs
