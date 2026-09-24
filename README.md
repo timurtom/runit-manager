@@ -492,7 +492,7 @@ source ~/.bashrc
 
 #### Icons are not showing/showing incorecctly
 **Problem**: noto-fonts-emoji not installed
-**Solution**: 
+**Solution**: install noto-fonts-emoji
 ```bash
 # Void Linux
 sudo xbps-install -S noto-fonts-emoji
